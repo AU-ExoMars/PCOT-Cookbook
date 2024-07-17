@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rsync -avLc site/ pale.org:cookbook.pale.org/
