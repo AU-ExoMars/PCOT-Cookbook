@@ -1,5 +1,22 @@
 site_name: PCOT Cookbook
+
+theme: 
+  name: material
+  language: en
+  palette:
+    scheme: slate
+    primary: red
+    accent: pink
+
 markdown_extensions:
     - attr_list
-    
+    - pymdownx.superfences:
+        custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+plugins:
+    - search
+    - mermaid2
+
 

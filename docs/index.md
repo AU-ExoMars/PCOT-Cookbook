@@ -11,8 +11,29 @@ You will probably have to edit the graph somewhat to produce the
 analysis you need, but these will give you a starting point from
 which to do that, as well as providing useful examples.
 
-## Documents
+## Analysis documents
+
+These are (hopefully) the "bread and butter" of working with PCOT: loading
+data into PCOT documents which process it in a (more or less) obvious 
+but at least clearly visible way.
 
 * [Plotting spectra of points](recipes/spectrum.md)
 * [False colour spectral parameter map](recipes/parametermap.md)
 * [Combined spectral parameter map](recipes/combined.md)
+
+## Calibration
+
+These are scripts or documents which take raw data and process it
+into a form ready for analysis. The calibration pipeline is, roughly
+speaking, this:
+
+```mermaid
+flowchart LR
+image[(image)] --> darkfield --> linearise --> flatfield --> Rstar[R*]
+```
+Things will be added here as they are written
+
+## Calibration data prep. scripts
+
+* Darkfield / flatfield preparation
+
