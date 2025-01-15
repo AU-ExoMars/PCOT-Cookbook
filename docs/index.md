@@ -1,7 +1,11 @@
 # The PCOT cookbook
 
 This is a repository of useful PCOT documents containing graphs for performing
-common tasks. Typically, the graphs are saved with some small images as
+common tasks. If you don't know what PCOT is, please
+[look here for more information](pcot.md).
+
+
+Typically, the graphs are saved with some small images as
 example data. To use your own data, click on the input button at the top of
 the screen which corresponds to the input you want to replace (this is almost
 always input 0) and load the required input. You may need to ensure that your

@@ -10,13 +10,20 @@ theme:
 
 markdown_extensions:
     - attr_list
+    - lightbox:LightBoxExtension # lightbox images with ![!Caption](img.png)
     - pymdownx.superfences:
         custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid_custom
+
 plugins:
     - search
     - mermaid2
 
 
+extra_javascript:
+    - js/lightbox-plus-jquery.min.js
+    
+extra_css:
+    - css/lightbox.min.css
