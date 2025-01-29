@@ -21,9 +21,9 @@ In this graph,
 * A *rect* adds a rectangular region of interest - the part of the image we are interested in.
 * A *croproi* cuts out this part of the image, producing a new image the same size as the ROI.
 * This image is then fed into three different nodes, each of which performs a different operation:
-** An *expr* node performs `a$610/a$532` - extracting two bands and creating a new image with their ratio
-** Similarly, another *expr* node performs `a$671/a$482`.
-** A *banddepth* node finds the band depth at 610nm (double-click the node to view and change parameters)
+    * An *expr* node performs `a$610/a$532` - extracting two bands and creating a new image with their ratio
+    * Similarly, another *expr* node performs `a$671/a$482`.
+    * A *banddepth* node finds the band depth at 610nm (double-click the node to view and change parameters)
 * These three 1-band images are merged together into a single 3-band image by another *expr* node, which also normalises the result. The optional second argument to the *norm* function is non-zero, which
 means we should normalise each channel separately.
 * Another *expr* then raises all the pixels to the power 0.7, performing a simple gamma correction.
