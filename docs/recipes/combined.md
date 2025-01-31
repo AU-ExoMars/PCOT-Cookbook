@@ -32,7 +32,11 @@ using the rectangular ROI we originally used.
 
 ![!Output of index node, and graph.](screenshots/combined.png)
 
-
+If you want to see both images side by side, you can double-click on a tab's
+header to pop it out into a separate window. It can be particularly 
+useful to have the *rect* node and the *inset* node open at the same time
+because you can change the rectangle in the *rect* node and see the changes
+reflected immediately in the *inset*.
 
 
 
