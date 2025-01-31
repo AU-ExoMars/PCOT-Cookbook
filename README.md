@@ -18,11 +18,14 @@ pip install mkdocs-mermaid2-plugin
 
 Run them as individual commands, not in a script.
 
-You can then use `mkdocs` to build the site,
+You can then use `mkdocs build` to build the site,
 which will appear in the `site` directory. This can then be uploaded
 to the server.
 
 You can also run `mkdocs serve` to run a local web server for testing.
+
+NOTE THAT `PYTHONPATH` needs to include "." so that it can find
+extensions like `lightbox.py`
 
 ## Document structure
 
