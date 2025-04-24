@@ -35,3 +35,12 @@ a graph file and at least one screenshot - these should be kept in
 the `graphs` and `screenshots` directories under `docs/recipes`. Looking
 at how existing recipes are structured will help enormously!
 
+
+## Internal
+
+How to mount from (say) central:
+
+```
+sudo mount -t cifs -o rw,username=PAU\\jcf12,uid=jcf12 //sitehost.disk.aber.ac.uk/pcot-aber-ac-uk mountpoint
+```
+
