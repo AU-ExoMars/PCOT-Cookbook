@@ -2,8 +2,8 @@
 
 This is a repository of useful PCOT documents containing graphs for performing
 common tasks. If you don't know what PCOT is, please
-[look here for more information](pcot.md).
-
+[look here for more information](pcot.md). It also 
+contains [camera definition files](cameras/).
 
 Typically, the graphs are saved with some small images as
 example data. To use your own data, click on the input button at the top of

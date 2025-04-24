@@ -1,0 +1,25 @@
+# Camera data
+
+This directory contains camera definition files. These contain:
+
+* what filters a camera has, and for each filter:
+    * a name, position and description
+    * centre wavelength, bandwidth etc.
+* optional reflectance data for each filter for each patch in a target
+* optional flat and dark fields (which make the file huge, but it can't
+be helped)
+
+Each file is a PCOT archive (``.parc`) file which should be placed
+in the cameras directory. This must be specified in the `.pcot.ini` file
+in the locations section:
+
+```ini
+[Locations]
+...
+cameras = /home/white/PCOT/cameras
+```
+If not specified, no cameras will be loaded! The `.pcot.ini` can be
+found in the user's home directory.
+
+## Camera files
+
