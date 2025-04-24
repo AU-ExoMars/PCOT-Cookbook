@@ -22,4 +22,4 @@ for x in cameras.getCameraNames():
         sz = os.stat(c.fileName).st_size
         print (f"\n---\n\n### {p.name}\n\n{p.description}")
         fn = basename(c.fileName)
-        print(f"[{fn}](cameras/{fn}) - {sz} bytes\n")
+        print(f"[{fn}]({fn}) - {sz} bytes\n")

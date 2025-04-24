@@ -33,7 +33,7 @@ The Aberystwyth University PanCam Emulator, left WAC only.
 This dataset represents AUPE as it was on 4th March 2025.
 Flats (when present) dated 2023-07-20, 40 images from each filter.
 
-[aupeL.parc](cameras/aupeL.parc) - 72679418 bytes
+[aupeL.parc](aupeL.parc) - 72679418 bytes
 
 
 ---
@@ -44,7 +44,7 @@ The Aberystwyth University PanCam Emulator, left WAC only.
 This dataset represents AUPE as it was on 4th March 2025.
 Flats (when present) dated 2023-07-20, 40 images from each filter.
 
-[aupeL_nocalib.parc](cameras/aupeL_nocalib.parc) - 1829 bytes
+[aupeL_nocalib.parc](aupeL_nocalib.parc) - 1829 bytes
 
 
 ---
@@ -55,7 +55,7 @@ The Aberystwyth University PanCam Emulator, right WAC only.
 This dataset represents AUPE as it was on 4th March 2025.
 Flats dated 2023-07-20, 40 images from each filter.
 
-[aupeR.parc](cameras/aupeR.parc) - 71504762 bytes
+[aupeR.parc](aupeR.parc) - 71504762 bytes
 
 
 ---
@@ -66,7 +66,7 @@ The Aberystwyth University PanCam Emulator, right WAC only.
 This dataset represents AUPE as it was on 4th March 2025.
 Flats dated 2023-07-20, 40 images from each filter.
 
-[aupeR_nocalib.parc](cameras/aupeR_nocalib.parc) - 1772 bytes
+[aupeR_nocalib.parc](aupeR_nocalib.parc) - 1772 bytes
 
 
 ---
@@ -76,7 +76,7 @@ Flats dated 2023-07-20, 40 images from each filter.
 The flight PanCam WAC instruments as they were on 4th March 2025.
 This is a minimal data set with filters only.
 
-[pancam.parc](cameras/pancam.parc) - 984 bytes
+[pancam.parc](pancam.parc) - 984 bytes
 
 
 ---
@@ -86,7 +86,7 @@ This is a minimal data set with filters only.
 The training PanCam instrument as it was on 4th March 2025.
 This is the GEOLOGY set for the WAC.
 
-[training1_geol.parc](cameras/training1_geol.parc) - 43068317 bytes
+[training1_geol.parc](training1_geol.parc) - 43068317 bytes
 
 
 ---
@@ -97,5 +97,5 @@ The training PanCam instrument as it was on 4th March 2025.
 This is the RGB/Solar set for the WAC.
 This is a minimal data set with filters only.
 
-[training2_rgb.parc](cameras/training2_rgb.parc) - 829 bytes
+[training2_rgb.parc](training2_rgb.parc) - 829 bytes
 
