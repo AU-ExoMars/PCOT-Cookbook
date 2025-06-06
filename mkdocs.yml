@@ -11,6 +11,8 @@ theme:
 markdown_extensions:
     - attr_list
     - lightbox:LightBoxExtension # lightbox images with ![!Caption](img.png)
+    - admonition
+    - pymdownx.details
     - pymdownx.superfences:
         custom_fences:
         - name: mermaid

@@ -2,10 +2,10 @@
 
 Download graph: [spectrum.pcot](graphs/spectrum.pcot){:download}
 
+![!The graph](screenshots/specgraph.png)
+
 This graph shows how to plot the spectra of multiple points in an image.
 We're actually plotting the spectra of "dots" - small regions of interest.
-
-![!The graph](screenshots/specgraph.png)
 
 
 The *multidot* node creates multiple circular regions of interest and adds

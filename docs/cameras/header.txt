@@ -1,5 +1,8 @@
 # Camera data
 
+<!-- Note to authors: Do not edit the index.md directly, edit 
+     header.txt and use ./gencams.py. See the README. -->
+
 This directory contains camera definition files. These contain:
 
 * what filters a camera has, and for each filter:
@@ -9,17 +12,21 @@ This directory contains camera definition files. These contain:
 * optional flat and dark fields (which make the file huge, but it can't
 be helped)
 
-Each file is a PCOT archive (``.parc`) file which should be placed
+Each file is a PCOT archive (`.parc`) file which should be placed
 in the cameras directory. This must be specified in the `.pcot.ini` file
 in the locations section:
 
 ```ini
 [Locations]
-...
 cameras = /home/white/PCOT/cameras
 ```
 If not specified, no cameras will be loaded! The `.pcot.ini` can be
 found in the user's home directory.
 
 ## Camera files
+
+!!! danger
+    The flatfield and reflectance calibration data are probably 
+    placeholders at best - they are certainly inaccurate!
+
 

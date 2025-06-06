@@ -2,6 +2,8 @@
 
 Download graph: [parametermap.pcot](graphs/parametermap.pcot){:download}
 
+![!Gradient node and graph.](screenshots/parametermap.png)
+
 This graph demonstrates a false colour spectral parameter map.
 
 * The input node feeds into *rect* node which adds a rectangular
@@ -16,6 +18,4 @@ generates a false colour image of the normalised result (but only
 the area covered by the ROI)
 and insets it into the RGB representation of the input. The position
 of the inset is taken from the ROI.
-
-![!Gradient node and graph.](screenshots/parametermap.png)
 

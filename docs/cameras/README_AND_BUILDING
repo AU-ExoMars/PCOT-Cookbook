@@ -1,0 +1,11 @@
+DO NOT edit the index.md file by hand. Instead,
+edit header.txt and run 
+
+    ./gencams.py > index.md
+
+This will output the header followed by the actual camera file
+data from PCOT.
+
+Note that this means that the data in PCOT's camera directory
+must match the data in this directory - gencams.py will use PCOT's
+data, not the data here.

@@ -2,6 +2,8 @@
 
 Download graph: [combined.pcot](graphs/combined.pcot){:download}
 
+![!Output of index node, and graph.](screenshots/combined.png)
+
 This is used when we want to show an RGB image where each channel comes
 from a different spectral parameter. For example,
 
@@ -29,8 +31,6 @@ means we should normalise each channel separately.
 * Another *expr* then raises all the pixels to the power 0.7, performing a simple gamma correction.
 * Finally, the *inset* node takes the 3-channel image we have just made, and insets it into an RGB representation of the original image as defined by the RGB mappings in the canvas of the *input* node,
 using the rectangular ROI we originally used.
-
-![!Output of index node, and graph.](screenshots/combined.png)
 
 If you want to see both images side by side, you can double-click on a tab's
 header to pop it out into a separate window. It can be particularly 
