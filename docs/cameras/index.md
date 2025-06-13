@@ -135,8 +135,9 @@ This is a minimal data set with filters only.
 The training PanCam instrument as it was on 4th March 2025.
 This is the GEOLOGY set for the WAC.
 
+* Has flatfield data
 
-[training1_geol.parc](training1_geol.parc) - 43068317 bytes
+[training1_geol.parc](training1_geol.parc) - 43068385 bytes
 
 
 ---
@@ -148,5 +149,5 @@ This is the RGB/Solar set for the WAC.
 This is a minimal data set with filters only.
 
 
-[training2_rgb.parc](training2_rgb.parc) - 829 bytes
+[training2_rgb.parc](training2_rgb.parc) - 895 bytes
 
