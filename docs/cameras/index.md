@@ -61,6 +61,22 @@ Flats (when present) dated 2023-07-20, 40 images from each filter.
 
 ---
 
+### AUPE_LEFT_OFFSET
+
+The Aberystwyth University PanCam Emulator, left WAC only.
+This dataset represents AUPE as it was on 4th March 2025.
+Flats (when present) dated 2023-07-20, 40 images from each filter.
+THIS FILE HAS THE FILTERS OFFSET BY ONE TO COMPENSATE FOR AN ERROR.
+USE ONLY FOR IMAGES CAPTURED BY VELOCIRAPDER PRIOR TO JUNE 2025
+
+* Has flatfield data
+* Has reflectance data for: PCT, macbeth
+
+[aupeL_offset.parc](aupeL_offset.parc) - 72681079 bytes
+
+
+---
+
 ### AUPE_LEFT_OFFSET_NOCALIB
 
 The Aberystwyth University PanCam Emulator, left WAC only.

@@ -12,6 +12,8 @@ markdown_extensions:
     - attr_list
     - lightbox:LightBoxExtension # lightbox images with ![!Caption](img.png)
     - admonition
+    - footnotes
+    - pymdownx.arithmatex # permits $..$ and \[ .. \] for maths; \begin{..}..\end{..} works too
     - pymdownx.details
     - pymdownx.superfences:
         custom_fences:
@@ -26,6 +28,7 @@ plugins:
 
 extra_javascript:
     - js/lightbox-plus-jquery.min.js
-    
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
+
 extra_css:
     - css/lightbox.min.css

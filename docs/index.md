@@ -15,10 +15,10 @@ You will probably have to edit the graph somewhat to produce the
 analysis you need, but these will give you a starting point from
 which to do that, as well as providing useful examples.
 
-## Analysis documents
+## Analysis recipes and documents
 
 These are (hopefully) the "bread and butter" of working with PCOT: loading
-data into PCOT documents which process it in a (more or less) obvious 
+data into PCOT to process it in a (more or less) obvious 
 but at least clearly visible way.
 
 * [Plotting spectra of points](recipes/spectrum.md)
@@ -27,17 +27,32 @@ but at least clearly visible way.
 
 ## Calibration
 
-These are scripts or documents which take raw data and process it
-into a form ready for analysis. The calibration pipeline is, roughly
+These are recipes which take raw data and process it
+into a form ready for analysis. For ExoMars data this will normally
+happen upstream in the Rover Operations Centre, but that will
+not be possible in preliminary work - and PCOT may well be used outside
+that setting.
+
+The calibration pipeline is, roughly
 speaking, this:
 
 ```mermaid
 flowchart LR
 image[(image)] --> darkfield --> linearise --> flatfield --> Rstar[R*]
 ```
-Things will be added here as they are written
+For each band in the image:
+
+* The image has any available darkfield image subtracted from them
+* The image is linearised, so that each pixel's value is proportional to intensity
+* Each pixel is then divided by the corresponding pixel in the normalised flatfield image, giving a radiance image
+* The image is converted from radiance to reflectance ($R^{\star}$) using a calibration target visible in the image
+
 
 ## Calibration data prep. scripts
 
-* Darkfield / flatfield preparation
+* Darkfield - yet to be written; it's likely to be a node producing a value which can be subtracted from an image.
+* Linearisation - yet to be written; it's likely to be a single node.
+* [Flatfielding](recipes/flatfield.md)
+* [Entire process](recipes/calibration.md)
+* [Flatfielding with manual filter assignment](recipes/flatfieldwithmanual.md)
 
