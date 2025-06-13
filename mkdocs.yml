@@ -7,6 +7,18 @@ theme:
     scheme: slate
     primary: red
     accent: pink
+  features:
+    - navigation.tabs
+    
+nav:
+    - Introduction: 'index.md'
+    - Camera data: 'cameras'
+    - Recipes:
+        - recipes/spectrum.md
+        - recipes/parametermap.md
+        - recipes/combined.md
+        - recipes/flatfield.md
+        - recipes/calibration.md
 
 markdown_extensions:
     - attr_list
