@@ -54,5 +54,4 @@ For each band in the image:
 * Linearisation - yet to be written; it's likely to be a single node.
 * [Flatfielding](recipes/flatfield.md)
 * [Entire process](recipes/calibration.md)
-* [Flatfielding with manual filter assignment](recipes/flatfieldwithmanual.md)
 
