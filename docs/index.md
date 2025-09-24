@@ -25,6 +25,15 @@ but at least clearly visible way.
 * [False colour spectral parameter map](recipes/parametermap.md)
 * [Combined spectral parameter map](recipes/combined.md)
 
+## Filter assignment
+
+Ideally, your input setup will assign filters automatically. Sometimes,
+however, this isn't possible - perhaps you have files which are 
+named strangely, or it's difficult to create a
+[regular expression](https://au-exomars.github.io/PCOT/userguide/multifile/#which-image-is-which-filter-setting-a-file-pattern)
+which *multifile* can use. In this case you can
+[use the *assignfilters* node](recipes/assignfilters.md) to manually assign filters.
+
 ## Calibration
 
 These are recipes which take raw data and process it
