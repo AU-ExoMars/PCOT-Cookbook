@@ -16,6 +16,7 @@ nav:
     - Recipes:
         - recipes/spectrum.md
         - recipes/parametermap.md
+        - recipes/spectralon.md
         - recipes/combined.md
         - recipes/flatfield.md
         - recipes/calibration.md

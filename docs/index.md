@@ -34,6 +34,13 @@ named strangely, or it's difficult to create a
 which *multifile* can use. In this case you can
 [use the *assignfilters* node](recipes/assignfilters.md) to manually assign filters.
 
+## Simple calibration to a white target
+
+Sometimes you have a white (e.g. Spectralon) target in the image
+and it's sufficient to calibrate to that. 
+[Here is a recipe](recipes/spectralon.md).
+
+
 ## Calibration
 
 These are recipes which take raw data and process it
