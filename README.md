@@ -38,7 +38,19 @@ at how existing recipes are structured will help enormously!
 
 ## Internal
 
-How to mount from (say) central:
+### How to copy to sitehost via Windows
+
+Build the files using `build`, copy them over to a Windows box (if you're
+not building on one). Then mount sitehost on Windows:
+```
+\\sitehost.disk.aber.ac.uk\pcot-aber-ac-uk
+```
+and copy the files over.
+
+
+### Mounting from Linux (deprecated)
+
+How to mount on Linux; doesn't currently work:
 
 ```
 sudo mount -t cifs -o rw,username=PAU\\jcf12,uid=jcf12 //sitehost.disk.aber.ac.uk/pcot-aber-ac-uk mountpoint
