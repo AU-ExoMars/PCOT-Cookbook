@@ -133,11 +133,16 @@ This is a minimal data set with filters only.
 ### TRAINING_GEOLOGY
 
 The training PanCam instrument as it was on 4th March 2025.
-This is the GEOLOGY set for the WAC.
+This is the GEOLOGY set for the WAC. 
+The reflectance data is temporary data for phi=270, theta=45
+(chosen to avoid the detector/source clash anomaly) at the cwl
+of each patch. Created with fake_training_model_data.py
+from Jack's measurements.
 
 * Has flatfield data
+* Has reflectance data for: PCT, Spectralon
 
-[training1_geol.parc](training1_geol.parc) - 43068385 bytes
+[training1_geol.parc](training1_geol.parc) - 43069569 bytes
 
 
 ---
@@ -147,7 +152,12 @@ This is the GEOLOGY set for the WAC.
 The training PanCam instrument as it was on 4th March 2025.
 This is the RGB/Solar set for the WAC.
 This is a minimal data set with filters only.
+The reflectance data is temporary data for phi=270, theta=45
+(chosen to avoid the detector/source clash anomaly) at the cwl
+of each patch. Created with fake_training_model_data.py
+from Jack's measurements.
 
+* Has reflectance data for: PCT, Spectralon
 
-[training2_rgb.parc](training2_rgb.parc) - 895 bytes
+[training2_rgb.parc](training2_rgb.parc) - 1846 bytes
 
