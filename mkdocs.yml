@@ -12,7 +12,8 @@ theme:
     
 nav:
     - Introduction: 'index.md'
-    - Camera data: 'cameras'
+    - PCOT details: 'pcot.md'
+    - Camera data: 'cameras/index.md'
     - Recipes:
         - recipes/spectrum.md
         - recipes/parametermap.md
@@ -20,6 +21,7 @@ nav:
         - recipes/combined.md
         - recipes/flatfield.md
         - recipes/calibration.md
+        - recipes/assignfilters.md
 
 markdown_extensions:
     - attr_list

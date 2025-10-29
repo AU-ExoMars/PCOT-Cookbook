@@ -9,7 +9,7 @@ useful to be able to perform calibration in PCOT on AUPE images.
 
 Note that because this process uses flatfields, you need to use a PCOT
 camera file which contains flatfield data! You can download the appropriate
-file for AUPE's left camera from the [camera definition files](/cameras/).
+file for AUPE's left camera from the [camera definition files](../cameras/index.md).
 It's quite big!
 
 ## A note on the filter ordering

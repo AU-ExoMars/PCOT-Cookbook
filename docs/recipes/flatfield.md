@@ -3,7 +3,7 @@
 Note that because this process uses flatfields, you need to use a PCOT
 camera file which contains flatfield data! You can download the appropriate
 file for the geology filter wheel in the training model (TRAINING_GEOLOGY)
-from the [camera definition files](/cameras/).
+from the [camera definition files](../cameras/index.md).
 It's quite big!
 
 Download graph: [flatfield.pcot](graphs/flatfield.pcot){:download}
