@@ -30,7 +30,7 @@ and modify the input 0 settings. Nevertheless this should give you an
 idea of how to set up calibration.
 
 ## The graph
-Download graph: [calibration.pcot](graphs/calibration.pcot){:download}
+Download graph: [calibration.pcot](graphs/calibration.pcot)
 
 ![!Flatfielding and reflectance combined for AUPE](screenshots/calibration.png)
 

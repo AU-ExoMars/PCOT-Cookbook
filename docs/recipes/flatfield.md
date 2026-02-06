@@ -6,7 +6,7 @@ file for the geology filter wheel in the training model (TRAINING_GEOLOGY)
 from the [camera definition files](../cameras/index.md).
 It's quite big!
 
-Download graph: [flatfield.pcot](graphs/flatfield.pcot){:download}
+Download graph: [flatfield.pcot](graphs/flatfield.pcot)
 
 ![!Flatfielding graph](screenshots/flatfield.png)
 

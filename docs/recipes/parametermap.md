@@ -1,6 +1,6 @@
 # Spectral parameter map
 
-Download graph: [parametermap.pcot](graphs/parametermap.pcot){:download}
+Download graph: [parametermap.pcot](graphs/parametermap.pcot)
 
 ![!Gradient node and graph.](screenshots/parametermap.png)
 
