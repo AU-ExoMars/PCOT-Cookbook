@@ -6,9 +6,13 @@
 This directory contains camera definition files. These contain:
 
 * what filters a camera has, and for each filter:
-    * a name, position and description
-    * centre wavelength, bandwidth etc.
-* optional reflectance data for each filter for each patch in a target
+    * a name, position and description;
+    * centre wavelength, bandwidth etc.;
+    * ideally a set of response data, which is either a single
+      value for each wavelength or a set of values over a range
+      of transmission angles. If not present, the response will
+      be simulated as a gaussian based on the other parameters.
+
 * optional flat and dark fields (which make the file huge, but it can't
 be helped)
 
@@ -26,8 +30,7 @@ found in the user's home directory.
 ## Camera files
 
 !!! danger
-    The flatfield and reflectance calibration data are probably 
-    placeholders at best - they are certainly inaccurate!
+    At this stage of development the data may be inaccurate!
 
 
 
@@ -41,9 +44,8 @@ This dataset represents AUPE as it was on 4th March 2025.
 Flats (when present) dated 2023-07-20, 40 images from each filter.
 
 * Has flatfield data
-* Has reflectance data for: PCT, macbeth
 
-[aupeL.parc](aupeL.parc) - 72680863 bytes
+[aupeL.parc](aupeL.parc) - 72679036 bytes
 
 
 ---
@@ -54,25 +56,8 @@ The Aberystwyth University PanCam Emulator, left WAC only.
 This dataset represents AUPE as it was on 4th March 2025.
 Flats (when present) dated 2023-07-20, 40 images from each filter.
 
-* Has reflectance data for: PCT, macbeth
 
-[aupeL_nocalib.parc](aupeL_nocalib.parc) - 3280 bytes
-
-
----
-
-### AUPE_LEFT_OFFSET
-
-The Aberystwyth University PanCam Emulator, left WAC only.
-This dataset represents AUPE as it was on 4th March 2025.
-Flats (when present) dated 2023-07-20, 40 images from each filter.
-THIS FILE HAS THE FILTERS OFFSET BY ONE TO COMPENSATE FOR AN ERROR.
-USE ONLY FOR IMAGES CAPTURED BY VELOCIRAPDER PRIOR TO JUNE 2025
-
-* Has flatfield data
-* Has reflectance data for: PCT, macbeth
-
-[aupeL_offset.parc](aupeL_offset.parc) - 72681079 bytes
+[aupeL_nocalib.parc](aupeL_nocalib.parc) - 1436 bytes
 
 
 ---
@@ -85,9 +70,8 @@ Flats (when present) dated 2023-07-20, 40 images from each filter.
 THIS FILE HAS THE FILTERS OFFSET BY ONE TO COMPENSATE FOR AN ERROR.
 USE ONLY FOR IMAGES CAPTURED BY VELOCIRAPDER PRIOR TO JUNE 2025
 
-* Has reflectance data for: PCT, macbeth
 
-[aupeL_offset_nocalib.parc](aupeL_offset_nocalib.parc) - 3429 bytes
+[aupeL_offset_nocalib.parc](aupeL_offset_nocalib.parc) - 1668 bytes
 
 
 ---
@@ -99,9 +83,8 @@ This dataset represents AUPE as it was on 4th March 2025.
 Flats, when present, dated 2023-07-20, 40 images from each filter.
 
 * Has flatfield data
-* Has reflectance data for: PCT
 
-[aupeR.parc](aupeR.parc) - 71504821 bytes
+[aupeR.parc](aupeR.parc) - 71504408 bytes
 
 
 ---
@@ -112,9 +95,8 @@ The Aberystwyth University PanCam Emulator, right WAC only.
 This dataset represents AUPE as it was on 4th March 2025.
 Flats, when present, dated 2023-07-20, 40 images from each filter.
 
-* Has reflectance data for: PCT
 
-[aupeR_nocalib.parc](aupeR_nocalib.parc) - 1850 bytes
+[aupeR_nocalib.parc](aupeR_nocalib.parc) - 1448 bytes
 
 
 ---
@@ -125,7 +107,7 @@ The flight PanCam WAC instruments as they were on 4th March 2025.
 This is a minimal data set with filters only.
 
 
-[pancam.parc](pancam.parc) - 984 bytes
+[pancam.parc](pancam.parc) - 1518 bytes
 
 
 ---
@@ -134,15 +116,10 @@ This is a minimal data set with filters only.
 
 The training PanCam instrument as it was on 4th March 2025.
 This is the GEOLOGY set for the WAC. 
-The reflectance data is temporary data for phi=270, theta=45
-(chosen to avoid the detector/source clash anomaly) at the cwl
-of each patch. Created with fake_training_model_data.py
-from Jack's measurements.
 
 * Has flatfield data
-* Has reflectance data for: PCT, Spectralon
 
-[training1_geol.parc](training1_geol.parc) - 43069569 bytes
+[training1_geol.parc](training1_geol.parc) - 43121778 bytes
 
 
 ---
@@ -152,12 +129,7 @@ from Jack's measurements.
 The training PanCam instrument as it was on 4th March 2025.
 This is the RGB/Solar set for the WAC.
 This is a minimal data set with filters only.
-The reflectance data is temporary data for phi=270, theta=45
-(chosen to avoid the detector/source clash anomaly) at the cwl
-of each patch. Created with fake_training_model_data.py
-from Jack's measurements.
 
-* Has reflectance data for: PCT, Spectralon
 
-[training2_rgb.parc](training2_rgb.parc) - 1846 bytes
+[training2_rgb.parc](training2_rgb.parc) - 1347 bytes
 

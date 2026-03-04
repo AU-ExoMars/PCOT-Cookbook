@@ -14,6 +14,7 @@ nav:
     - Introduction: 'index.md'
     - PCOT details: 'pcot.md'
     - Camera data: 'cameras/index.md'
+    - Reflectance data: 'reflectances/index.md'
     - Recipes:
         - recipes/spectrum.md
         - recipes/parametermap.md

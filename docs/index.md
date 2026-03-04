@@ -2,8 +2,11 @@
 
 This is a repository of useful PCOT documents containing graphs for performing
 common tasks. If you don't know what PCOT is, please
-[look here for more information](pcot.md). It also 
-contains [camera definition files](cameras/index.md).
+[look here for more information](pcot.md). It also contains camera and
+reflectance data you will need to analyse images:
+
+* [camera files](cameras/index.md)
+* [reflectance target files](reflectances/index.md)
 
 Typically, the graphs are saved with some small images as
 example data. To use your own data, click on the input button at the top of
