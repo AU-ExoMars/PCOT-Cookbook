@@ -41,11 +41,21 @@ at how existing recipes are structured will help enormously!
 ### How to copy to sitehost via Windows
 
 Build the files using `build`, copy them over to a Windows box (if you're
-not building on one). Then mount sitehost on Windows:
+not building on one), e.g.:
+
+```
+scp -r site /media/xfer/cookbooksite
+``
+
+Then mount sitehost on Windows by opening Explorer, going to This PC
+and selecting Add a Network Location from the right-click context menu.
+The address is:
 ```
 \\sitehost.disk.aber.ac.uk\pcot-aber-ac-uk
 ```
-and copy the files over.
+User name should be `PAU\jcf12`
+
+Then copy the files over. Takes ages.
 
 
 ### Mounting from Linux (deprecated)

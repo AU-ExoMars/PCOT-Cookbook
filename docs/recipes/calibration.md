@@ -1,5 +1,12 @@
 # Calibration process (flatfielding and reflectance)
 
+!!!danger
+    This file probably won't actually work because the filter and
+    reflectance data is being updated, but the basic idea is sound! Please
+    [get back to me](mailto:jcf12@aber.ac.uk?subject="calibration.pcot in cookbook")
+    if I don't update it soon!
+
+
 ## Introduction
 Here, we process the image with flatfielding and conversion from DNs
 to $R^{\star}$. 
