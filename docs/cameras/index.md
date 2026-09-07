@@ -34,6 +34,18 @@ found in the user's home directory.
 
 ---
 
+### AUPE-SKP
+
+This data is for both WACs on the AUPE set up for the SKP trial
+(also known as FrankenAUPE).
+
+* Has flatfield data
+
+[AUPE_SKP.parc](AUPE_SKP.parc) - 62214268 bytes
+
+
+---
+
 ### AUPE_LEFT
 
 The Aberystwyth University PanCam Emulator, left WAC only.
@@ -41,9 +53,8 @@ This dataset represents AUPE as it was on 4th March 2025.
 Flats (when present) dated 2023-07-20, 40 images from each filter.
 
 * Has flatfield data
-* Has reflectance data for: PCT, macbeth
 
-[aupeL.parc](aupeL.parc) - 72680863 bytes
+[aupeL.parc](aupeL.parc) - 72679036 bytes
 
 
 ---
@@ -54,9 +65,8 @@ The Aberystwyth University PanCam Emulator, left WAC only.
 This dataset represents AUPE as it was on 4th March 2025.
 Flats (when present) dated 2023-07-20, 40 images from each filter.
 
-* Has reflectance data for: PCT, macbeth
 
-[aupeL_nocalib.parc](aupeL_nocalib.parc) - 3280 bytes
+[aupeL_nocalib.parc](aupeL_nocalib.parc) - 1436 bytes
 
 
 ---
@@ -70,9 +80,8 @@ THIS FILE HAS THE FILTERS OFFSET BY ONE TO COMPENSATE FOR AN ERROR.
 USE ONLY FOR IMAGES CAPTURED BY VELOCIRAPDER PRIOR TO JUNE 2025
 
 * Has flatfield data
-* Has reflectance data for: PCT, macbeth
 
-[aupeL_offset.parc](aupeL_offset.parc) - 72681079 bytes
+[aupeL_offset.parc](aupeL_offset.parc) - 72679239 bytes
 
 
 ---
@@ -85,9 +94,8 @@ Flats (when present) dated 2023-07-20, 40 images from each filter.
 THIS FILE HAS THE FILTERS OFFSET BY ONE TO COMPENSATE FOR AN ERROR.
 USE ONLY FOR IMAGES CAPTURED BY VELOCIRAPDER PRIOR TO JUNE 2025
 
-* Has reflectance data for: PCT, macbeth
 
-[aupeL_offset_nocalib.parc](aupeL_offset_nocalib.parc) - 3429 bytes
+[aupeL_offset_nocalib.parc](aupeL_offset_nocalib.parc) - 1668 bytes
 
 
 ---
@@ -99,9 +107,8 @@ This dataset represents AUPE as it was on 4th March 2025.
 Flats, when present, dated 2023-07-20, 40 images from each filter.
 
 * Has flatfield data
-* Has reflectance data for: PCT
 
-[aupeR.parc](aupeR.parc) - 71504821 bytes
+[aupeR.parc](aupeR.parc) - 71504408 bytes
 
 
 ---
@@ -112,9 +119,23 @@ The Aberystwyth University PanCam Emulator, right WAC only.
 This dataset represents AUPE as it was on 4th March 2025.
 Flats, when present, dated 2023-07-20, 40 images from each filter.
 
-* Has reflectance data for: PCT
 
-[aupeR_nocalib.parc](aupeR_nocalib.parc) - 1850 bytes
+[aupeR_nocalib.parc](aupeR_nocalib.parc) - 1448 bytes
+
+
+---
+
+### HRC
+
+Filter responses have been simulated using paired sigmoids. Source:
+Coates AJ, Jaumann R, Griffiths AD, et al.
+The PanCam Instrument for the ExoMars Rover.
+Astrobiology. 2017;17(6-7):511-541.
+doi:10.1089/ast.2016.1548
+https://www.liebertpub.com/doi/10.1089/ast.2016.1548
+
+
+[HRC.parc](HRC.parc) - 5098 bytes
 
 
 ---
@@ -125,7 +146,7 @@ The flight PanCam WAC instruments as they were on 4th March 2025.
 This is a minimal data set with filters only.
 
 
-[pancam.parc](pancam.parc) - 984 bytes
+[pancam.parc](pancam.parc) - 1518 bytes
 
 
 ---
@@ -133,10 +154,11 @@ This is a minimal data set with filters only.
 ### TRAINING_GEOLOGY
 
 The training PanCam instrument as it was on 4th March 2025.
-This is the GEOLOGY set for the WAC.
+This is the GEOLOGY set for the WAC. 
 
+* Has flatfield data
 
-[training1_geol.parc](training1_geol.parc) - 43068317 bytes
+[training1_geol.parc](training1_geol.parc) - 43121778 bytes
 
 
 ---
@@ -148,5 +170,5 @@ This is the RGB/Solar set for the WAC.
 This is a minimal data set with filters only.
 
 
-[training2_rgb.parc](training2_rgb.parc) - 829 bytes
+[training2_rgb.parc](training2_rgb.parc) - 1347 bytes
 

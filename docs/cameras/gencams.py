@@ -25,7 +25,5 @@ for x in cameras.getCameraNames():
         
         if p.has_flats:
             print("* Has flatfield data")
-        if p.has_reflectances:
-            print("* Has reflectance data for: "+", ".join(c.params.reflectances.keys()))
 
         print(f"\n[{fn}]({fn}) - {sz} bytes\n")
