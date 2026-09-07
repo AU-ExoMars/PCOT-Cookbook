@@ -1,8 +1,8 @@
 # PCOT-Cookbook
 Documented examples of common operations in PCOT
 
-This is an mkdocs document, and for now it is hosted at
-[cookbook.pale.org](cookbook.pale.org).
+This is an mkdocs document, and is hosted at
+[pcot.aber.ac.uk](pcot.aber.ac.uk)
 
 
 ## How to create the build environment and build the site
@@ -38,7 +38,29 @@ at how existing recipes are structured will help enormously!
 
 ## Internal
 
-How to mount from (say) central:
+### How to copy to sitehost via Windows
+
+Build the files using `build`, copy them over to a Windows box (if you're
+not building on one), e.g.:
+
+```
+scp -r site /media/xfer/cookbooksite
+``
+
+Then mount sitehost on Windows by opening Explorer, going to This PC
+and selecting Add a Network Location from the right-click context menu.
+The address is:
+```
+\\sitehost.disk.aber.ac.uk\pcot-aber-ac-uk
+```
+User name should be `PAU\jcf12`
+
+Then copy the files over. Takes ages.
+
+
+### Mounting from Linux (deprecated)
+
+How to mount on Linux; doesn't currently work:
 
 ```
 sudo mount -t cifs -o rw,username=PAU\\jcf12,uid=jcf12 //sitehost.disk.aber.ac.uk/pcot-aber-ac-uk mountpoint

@@ -2,8 +2,11 @@
 
 This is a repository of useful PCOT documents containing graphs for performing
 common tasks. If you don't know what PCOT is, please
-[look here for more information](pcot.md). It also 
-contains [camera definition files](cameras/).
+[look here for more information](pcot.md). It also contains camera and
+reflectance data you will need to analyse images:
+
+* [camera files](cameras/index.md)
+* [reflectance target files](reflectances/index.md)
 
 Typically, the graphs are saved with some small images as
 example data. To use your own data, click on the input button at the top of
@@ -24,6 +27,22 @@ but at least clearly visible way.
 * [Plotting spectra of points](recipes/spectrum.md)
 * [False colour spectral parameter map](recipes/parametermap.md)
 * [Combined spectral parameter map](recipes/combined.md)
+
+## Filter assignment
+
+Ideally, your input setup will assign filters automatically. Sometimes,
+however, this isn't possible - perhaps you have files which are 
+named strangely, or it's difficult to create a
+[regular expression](https://au-exomars.github.io/PCOT/userguide/multifile/#which-image-is-which-filter-setting-a-file-pattern)
+which *multifile* can use. In this case you can
+[use the *assignfilters* node](recipes/assignfilters.md) to manually assign filters.
+
+## Simple calibration to a white target
+
+Sometimes you have a white (e.g. Spectralon) target in the image
+and it's sufficient to calibrate to that. 
+[Here is a recipe](recipes/spectralon.md).
+
 
 ## Calibration
 
@@ -54,5 +73,4 @@ For each band in the image:
 * Linearisation - yet to be written; it's likely to be a single node.
 * [Flatfielding](recipes/flatfield.md)
 * [Entire process](recipes/calibration.md)
-* [Flatfielding with manual filter assignment](recipes/flatfieldwithmanual.md)
 

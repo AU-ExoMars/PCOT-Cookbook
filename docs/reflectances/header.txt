@@ -1,0 +1,27 @@
+# Reflectance data
+
+<!-- Note to authors: Do not edit the index.md directly, edit 
+     header.txt and use ./gencams.py. See the README. -->
+
+This directory  contains  reflectance target files. These contain  reflectance
+spectra  for the  different  patches  in the  target,  with the PCT data being
+recorded for a range of different stereo reflectance angles with the incidence
+angle being fixed at roughly the position of the PCT on the rover.
+
+Each file is a PCOT archive (`.parc`) file which should be placed
+in the cameras directory. This must be specified in the `.pcot.ini` file
+in the locations section:
+
+```ini
+[Locations]
+reflectances = /home/white/PCOT/reflectances
+```
+If not specified, no data will be loaded! The `.pcot.ini` can be
+found in the user's home directory.
+
+## Reflectance files
+
+!!! danger
+    At this stage of development the data may be inaccurate!
+
+

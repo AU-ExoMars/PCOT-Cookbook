@@ -1,6 +1,6 @@
 # Combined spectral parameter map
 
-Download graph: [combined.pcot](graphs/combined.pcot){:download}
+Download graph: [combined.pcot](graphs/combined.pcot)
 
 ![!Output of index node, and graph.](screenshots/combined.png)
 

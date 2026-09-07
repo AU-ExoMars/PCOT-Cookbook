@@ -1,6 +1,6 @@
 # Plotting spectra of points
 
-Download graph: [spectrum.pcot](graphs/spectrum.pcot){:download}
+Download graph: [spectrum.pcot](graphs/spectrum.pcot)
 
 ![!The graph](screenshots/specgraph.png)
 
